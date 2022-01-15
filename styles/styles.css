@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Inter-Regular.otf") format("embedded-opentype");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+  background-color: #E5E5E5;
+}
+
+/*Pages*/
+.page-header {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.navigation-link {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-index {
+  color: #000000;
+  background-color: #FFFFFF;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.headline {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 400;
+  text-align: center;
+}
