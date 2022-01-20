@@ -132,6 +132,178 @@ body {
   color: #212B31;
 }
 
-.besix-img {
-  
+.constr-head {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #212B31;
+}
+
+.constr-info {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #72787D;
+}
+
+.construction-title {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+  color: #212B31;
+}
+.construction-description {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #72787D;
+}
+
+.delivery-title {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #212B31;
+}
+
+.delivery-info {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #72787D;
+}
+
+.delivery-subtitle {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+  color: #212B31;
+}
+
+.delivery-description {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #72787D;
+}
+
+.all-delivery {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: left;
+  color: #212B31;
+}
+
+.all {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: left;
+  color: #72787D;
+}
+
+.reliability-heading {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #212B31;
+}
+
+.icon-reliability {
+  background-image: url(../images/icons/reliability.svg);
+  width: 43px;
+  min-height: 41px;
+}
+
+.reliability-info {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #72787D;
+}
+
+.reliability-title {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #212B31;
+}
+
+.reliability-description {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #72787D;
+}
+
+.icon-arms {
+  color: #000000;
+  background-image: url(../images/icons/robust-design.svg);
+  width: 36px;
+  min-height: 37px;
+}
+
+.construction-info {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #72787D;
+}
+
+.for-building {
+  color: #FFFFFF;
+  background-color: #212B31;
+}
+
+.established {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: left;
+}
+
+.positive-title {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.positive-description {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  opacity: 0.75;
+}
+
+.attraction-title {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.attraction-description {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  opacity: 0.75;
+
 }
