@@ -307,3 +307,112 @@ body {
   opacity: 0.75;
 
 }
+
+.work {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: left;
+  color: #212B31;
+}
+
+.work-info {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: left;
+  color: #72787D;
+}
+
+.stage-title {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: left;
+  color: #212B31;
+}
+
+.stage-description {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #72787D;
+}
+
+.choose-head {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #212B31;
+}
+
+.choose-info {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #212B31;
+}
+.choose-title {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+  color: #212B31;
+}
+
+.choose-description {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #72787D;
+}
+
+.review-text {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  line-height: 48px;
+  text-align: left;
+  color: #212B31;
+}
+
+/*Icons*/
+.machines-icon {
+  color: #FFFFFF;
+  background-image: url(../images/icons/machines-50.svg);
+  width: 126px;
+  min-height: 201px;
+}
+
+.builtworld-icon {
+  color: #FFFFFF;
+  background-image: url(../images/icons/builtworld.svg);
+  width: 164px;
+  min-height: 189px;
+}
+
+.global-contech-icon {
+  color: #FFFFFF;
+  background-image: url(../images/icons/contech.svg);
+  width: 162px;
+  min-height: 200px;
+}
+
+.proptech-icon {
+  color: #FFFFFF;
+  background-image: url(../images/icons/proptech.svg);
+  width: 184px;
+  min-height: 201px;
+}
+
+.offer {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 400;
+  text-align: center;
+  color: #212B31;
+}
