@@ -21,6 +21,84 @@ body {
   background-color: #E5E5E5;
 }
 
+/*Button*/
+.order-button {
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #FFFFFF;
+  background-color:#212B31;
+  text-decoration: none;
+}
+
+.demo {
+  font-family: inherit;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: #FFFFFF;
+  background-color:#212B31;
+  text-decoration: none;
+}
+
+.more-details {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: #212B31;
+  background-color:#FFFFFF;
+  text-decoration: none;
+}
+
+.all-details {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: #212B31;
+  background-color:#FFFFFF;
+  text-decoration: none;
+}
+
+.button-demo {
+  font-family: inherit;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: #212B31;
+  background-color:#FFFFFF;
+  text-decoration: none;
+}
+
+.button-details {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: #FFFFFF;
+  background-color:#212B31;
+  text-decoration: none;
+}
+
+.contact-us {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: #212B31;
+  background-color:#FFFFFF;
+  text-decoration: none;
+}
+
 /*Pages*/
 .page-header {
   color: #000000;
@@ -415,4 +493,135 @@ body {
   font-weight: 400;
   text-align: center;
   color: #212B31;
+}
+
+/*Footer*/
+.name-footer {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.contacts-address-text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  color: #72787D;
+}
+
+.htmlacademy-link {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  color: #72787D;
+}
+
+.contacts-phone {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  color: #72787D;
+}
+
+.product-head,
+.service-head,
+.company-head {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  color: #212B31;
+}
+
+.process {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  color: #72787D;
+}
+
+.production {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  color: #72787D;
+}
+
+.clients {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  color: #72787D;
+}
+
+.safety {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  color: #72787D;
+}
+
+.about {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  color: #72787D;
+}
+
+.connection {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  color: #72787D;
+}
+
+.rights-reserved {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  color: #72787D;
+}
+
+.privacy-policy {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: right;
+  text-decoration: none;
+  color: #72787D;
 }
