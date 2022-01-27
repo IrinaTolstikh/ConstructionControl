@@ -14,6 +14,10 @@ html {
 }
 
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "Inter", sans-serif;
   font-size: 20px;
   line-height: 32px;
@@ -100,11 +104,36 @@ body {
 }
 
 /*Pages*/
+.page-container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.logo {
+  display:block;
+  margin: 0 auto;
+}
+
 .page-header {
   color: #000000;
   background-color: #FFFFFF;
 }
 
+.navigation {
+  display: flex;
+  width: 857px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  display: flex;
+  flex-direction: row;
+  width: 857px;
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
+  list-style-type: none;
+}
 .navigation-link {
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -113,6 +142,11 @@ body {
   text-align: center;
   text-decoration: none;
   color: inherit;
+  padding-left: 22px;
+}
+
+.main-container {
+  flex-grow: 1;
 }
 
 .main-index {
@@ -130,6 +164,7 @@ body {
   text-align: left;
   text-transform: uppercase;
 }
+
 .headline {
   font-family: "Inter", sans-serif;
   font-size: 48px;
@@ -141,7 +176,17 @@ body {
 
 /*List*/
 .advantages-list {
+  display: flex;
+  justify-content: space-between;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/*Item*/
+.advantages-item {
+  width: 325px;
 }
 
 /*Title*/
@@ -160,6 +205,8 @@ body {
  text-align: center;
  color: #72787D;
 }
+
+
 
 /*Control*/
 .control-head {
@@ -186,6 +233,7 @@ body {
   color: #212B31;
 }
 
+
 .care-title {
   font-family: "Inter", sans-serif;
   font-size: 32px;
@@ -202,6 +250,7 @@ body {
   color: #72787D;
 }
 
+
 .additional {
   font-family: "Inter", sans-serif;
   font-size: 20px;
@@ -209,6 +258,7 @@ body {
   text-align: left;
   color: #212B31;
 }
+
 
 .constr-head {
   font-family: "Inter", sans-serif;
@@ -239,6 +289,16 @@ body {
   line-height: 24px;
   text-align: left;
   color: #72787D;
+}
+
+.delivery-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #000000;
+
 }
 
 .delivery-title {
@@ -287,6 +347,15 @@ body {
   line-height: 32px;
   text-align: left;
   color: #72787D;
+}
+
+.reliability-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #000000;
 }
 
 .reliability-heading {
@@ -370,11 +439,21 @@ body {
   opacity: 0.75;
 }
 
+.attraction-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #000000;
+}
+
 .attraction-title {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   line-height: 24px;
   text-align: center;
+  color: #FFFFFF;
 }
 
 .attraction-description {
@@ -382,6 +461,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
+  color: #FFFFFF;
   opacity: 0.75;
 
 }
@@ -418,6 +498,10 @@ body {
   color: #72787D;
 }
 
+.index-columns {
+  display: flex;
+  justify-content: space-between;
+}
 .choose-head {
   font-family: "Inter", sans-serif;
   font-size: 32px;
@@ -447,6 +531,10 @@ body {
   line-height: 24px;
   text-align: left;
   color: #72787D;
+}
+
+.review {
+  padding-left: 178px;
 }
 
 .review-text {
@@ -496,6 +584,12 @@ body {
 }
 
 /*Footer*/
+.page-footer-container {
+  display: flex;
+  width: 1440px;
+  margin: 0 auto;
+}
+
 .name-footer {
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -505,6 +599,10 @@ body {
   text-transform: uppercase;
 }
 
+contacts {
+  width: 221px;
+  margin-right: 160px;
+}
 .contacts-address-text {
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -532,6 +630,16 @@ body {
   text-align: left;
   text-decoration: none;
   color: #72787D;
+}
+
+.product {
+  width: 104px;
+  margin-right: 160px;
+}
+
+.service {
+  width: 111px;
+  margin-right: 160px;
 }
 
 .product-head,
