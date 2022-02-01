@@ -172,6 +172,8 @@ body {
 
 .main-container {
   flex-grow: 1;
+  padding-top: 74px;
+  padding-bottom: 157px;
 }
 
 .main-index {
@@ -198,7 +200,19 @@ body {
   text-align: center;
   color: #212B31;
 }
+.construction {
+  padding-top: 88px;
+  padding-bottom: 36px;
+}
 
+.trucks {
+  padding-bottom: 148px;
+}
+
+/*Advantages*/
+.advantages {
+  margin-bottom: 142px;
+}
 /*List*/
 .advantages-list {
   display: flex;
@@ -221,6 +235,8 @@ body {
   line-height: 24px;
   text-align: center;
   color: #212B31;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .advantages-description {
@@ -229,8 +245,8 @@ body {
  line-height: 24px;
  text-align: center;
  color: #72787D;
+ margin: 0;
 }
-
 
 
 /*Control*/
@@ -240,6 +256,7 @@ body {
   line-height: 48px;
   text-align: center;
   color: #212B31;
+  margin: 0;
 }
 
 .control-description {
@@ -248,6 +265,12 @@ body {
   line-height: 32px;
   text-align: center;
   color: #72787D;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+.control-chaos {
+  margin-bottom: 144px;
 }
 
 .control-project {
@@ -256,6 +279,7 @@ body {
   line-height: 48px;
   text-align: center;
   color: #212B31;
+  margin-bottom: 168px;
 }
 
 
@@ -265,6 +289,7 @@ body {
   line-height: 48px;
   text-align: left;
   color: #212B31;
+  margin-bottom: 16px;
 }
 
 .care-description {
@@ -273,6 +298,7 @@ body {
   line-height: 32px;
   text-align: left;
   color: #72787D;
+  margin-bottom: 28px;
 }
 
 
@@ -284,6 +310,9 @@ body {
   color: #212B31;
 }
 
+.care-image {
+  margin-bottom: 128px;
+}
 
 .constr-head {
   font-family: "Inter", sans-serif;
@@ -291,6 +320,8 @@ body {
   line-height: 48px;
   text-align: center;
   color: #212B31;
+  margin-top: 136px;
+  margin-bottom: 21px;
 }
 
 .constr-info {
@@ -299,6 +330,7 @@ body {
   line-height: 32px;
   text-align: center;
   color: #72787D;
+  margin-bottom: 95px;
 }
 
 .construction-title {
@@ -307,7 +339,9 @@ body {
   line-height: 24px;
   text-align: left;
   color: #212B31;
+  margin-bottom: 19px;
 }
+
 .construction-description {
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -332,6 +366,8 @@ body {
   line-height: 48px;
   text-align: center;
   color: #212B31;
+  margin-top: 143px;
+  margin-bottom: 21px;
 }
 
 .delivery-info {
@@ -340,6 +376,7 @@ body {
   line-height: 32px;
   text-align: center;
   color: #72787D;
+  margin-bottom: 43px;
 }
 
 .delivery-subtitle {
@@ -348,6 +385,7 @@ body {
   line-height: 24px;
   text-align: left;
   color: #212B31;
+  margin: 0;
 }
 
 .delivery-description {
@@ -356,6 +394,8 @@ body {
   line-height: 24px;
   text-align: left;
   color: #72787D;
+  margin-top: 11px;
+  margin-bottom: 33px;
 }
 
 .all-delivery {
@@ -364,6 +404,8 @@ body {
   line-height: 32px;
   text-align: left;
   color: #212B31;
+  margin-top: 22px;
+  margin-bottom: 125px;
 }
 
 .all {
@@ -389,6 +431,8 @@ body {
   line-height: 48px;
   text-align: center;
   color: #212B31;
+  margin-top: 143px;
+  margin-bottom: 17px;
 }
 
 .icon-reliability {
@@ -403,6 +447,7 @@ body {
   line-height: 32px;
   text-align: center;
   color: #72787D;
+  margin-bottom: 48px;
 }
 
 .reliability-title {
@@ -411,6 +456,8 @@ body {
   line-height: 24px;
   text-align: center;
   color: #212B31;
+  margin-top: 19px;
+  margin-bottom: 11px;
 }
 
 .reliability-description {
@@ -419,6 +466,7 @@ body {
   line-height: 24px;
   text-align: center;
   color: #72787D;
+  margin-bottom: 266px;
 }
 
 .icon-arms {
@@ -440,6 +488,7 @@ body {
 .for-building {
   color: #FFFFFF;
   background-color: #212B31;
+  margin-top: 193px;
 }
 
 .established {
@@ -447,6 +496,7 @@ body {
   font-size: 32px;
   line-height: 48px;
   text-align: left;
+  margin-top: 143px;
 }
 
 .positive-title {
@@ -454,6 +504,7 @@ body {
   font-size: 18px;
   line-height: 24px;
   text-align: left;
+  margin-top: 50px;
 }
 
 .positive-description {
@@ -462,6 +513,12 @@ body {
   line-height: 24px;
   text-align: left;
   opacity: 0.75;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+.positive-description:last-child {
+  margin-bottom: 63px;
 }
 
 .attraction-list {
@@ -471,6 +528,7 @@ body {
   padding: 0;
   text-align: center;
   color: #000000;
+  list-style-type: none;
 }
 
 .attraction-title {
@@ -479,6 +537,8 @@ body {
   line-height: 24px;
   text-align: center;
   color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .attraction-description {
@@ -488,7 +548,11 @@ body {
   text-align: center;
   color: #FFFFFF;
   opacity: 0.75;
+  margin-bottom: 142px;
+}
 
+.device-image {
+  margin-bottom: 127px;
 }
 
 .work {
